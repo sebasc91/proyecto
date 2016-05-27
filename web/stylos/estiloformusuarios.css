@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18/04/2016, 07:00:35 PM
+    Author     : LUIS FERNANDO URREGO
+*/
+
+.botones{
+         
+     font-size : 12pt; 
+     font-family : corbel;  
+     text-align :center;
+     font-weight: bold;
+}  
+
+.justificacionformUsuarios {
+      height: 30px;
+      width:60%;
+      border-radius: 3px;
+      margin-left: 200px;
+      }
+      
+ .logoencabezadoformUsuarios
+{ 
+     width: 98%;
+     margin: 10px auto 10px;
+     border-radius: 10px;
+     margin-left: 40px;
+}
+
+.fondoazul{
+     width:1250px;height:480px;
+     margin: 15px auto 15px;
+     background: rgb(254,255,255); /* Old browsers */
+     background: -moz-linear-gradient(-45deg, rgba(254,255,255,1) 0%, rgba(210,235,249,1) 0%, rgba(210,235,249,1) 17%, rgba(254,255,255,1) 27%); /* FF3.6+ */
+     background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(254,255,255,1)), color-stop(0%,rgba(210,235,249,1)), color-stop(17%,rgba(210,235,249,1)), color-stop(27%,rgba(254,255,255,1))); /* Chrome,Safari4+ */
+     background: -webkit-linear-gradient(-45deg, rgba(254,255,255,1) 0%,rgba(210,235,249,1) 0%,rgba(210,235,249,1) 17%,rgba(254,255,255,1) 27%); /* Chrome10+,Safari5.1+ */
+     background: -o-linear-gradient(-45deg, rgba(254,255,255,1) 0%,rgba(210,235,249,1) 0%,rgba(210,235,249,1) 17%,rgba(254,255,255,1) 27%); /* Opera 11.10+ */
+     background: -ms-linear-gradient(-45deg, rgba(254,255,255,1) 0%,rgba(210,235,249,1) 0%,rgba(210,235,249,1) 17%,rgba(254,255,255,1) 27%); /* IE10+ */
+     background: linear-gradient(135deg, rgba(254,255,255,1) 0%,rgba(210,235,249,1) 0%,rgba(210,235,249,1) 17%,rgba(254,255,255,1) 27%); /* W3C */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#feffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+     border-radius: 15px 15px 15px 15px;
+
+
+}
+

@@ -1,0 +1,75 @@
+.alineacionimagenreloj{
+      height: 100px;
+      width:60%;
+      border-radius: 3px;
+      margin-left: 70px;
+      }
+      
+
+      
+.hover {
+      border-radius:10px;
+      box-shadow: 0 -8px 13px rgba(23,4,11,45);
+      }
+ 
+
+#fondologinusuario {
+	background: #e80c7a; /* Old browsers */
+	background: -moz-linear-gradient(top,  #e80c7a 0%, #e80c7a 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e80c7a), color-stop(100%,#e80c7a)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #e80c7a 0%,#e80c7a 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #e80c7a 0%,#98bede 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #e80c7a 0%,#98bede 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #e80c7a 0%,#98bede 100%); /* W3C <-- es aquí Lyda}*/
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#A8A8A8', endColorstr='#98bede',GradientType=0 ); /* IE6-9 */
+	border-radius: 15px 15px 15px 15px;
+	margin: 0 auto;
+	width:310px;
+        height: 310px;
+	font-family: corbel;
+	
+}
+
+.fondoazullogin{
+       width:1250px;height:380px;
+       background: rgb(254,255,255); /* Old browsers */
+       background: -moz-linear-gradient(45deg, rgba(254,255,255,1) 78%, rgba(210,235,249,1) 100%); /* FF3.6+ */
+       background: -webkit-gradient(linear, left bottom, right top, color-stop(78%,rgba(254,255,255,1)), color-stop(100%,rgba(210,235,249,1))); /* Chrome,Safari4+ */
+       background: -webkit-linear-gradient(45deg, rgba(254,255,255,1) 78%,rgba(210,235,249,1) 100%); /* Chrome10+,Safari5.1+ */
+       background: -o-linear-gradient(45deg, rgba(254,255,255,1) 78%,rgba(210,235,249,1) 100%); /* Opera 11.10+ */
+       background: -ms-linear-gradient(45deg, rgba(254,255,255,1) 78%,rgba(210,235,249,1) 100%); /* IE10+ */
+       background: linear-gradient(45deg, rgba(254,255,255,1) 78%,rgba(210,235,249,1) 100%); /* W3C */
+       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E9072D', endColorstr='#E9072D',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+       border-radius: 15px 15px 15px 15px;
+
+}
+.justificacioncuadrologin {
+      float: right;
+      margin-right: 10px;
+      width: 20px;
+      height: 400px;
+      margin-top: 0px;
+      }
+      
+.h1{
+         
+font-size : 12pt; 
+font-family : corbel;  
+text-align :center;
+} 
+H1 { 
+font-size : 18pt; 
+font-family :corbel; 
+text-align :center; 
+
+
+}  
+
+.olvidocontraseña{
+         
+font-size : 11pt; 
+font-family : corbel;  
+text-align :center;
+text-decoration : underline;
+} 
+

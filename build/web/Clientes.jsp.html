@@ -1,0 +1,109 @@
+<html>
+    <head>
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="stylos/estiloformusuarios.css"></link>
+        <title>Clientes</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <!-- Bootstrap Core CSS -->
+        <link href="stylos/bootstrap.min.css" rel="stylesheet">
+        <link href="stylos/bootstrap.css" rel="stylesheet">
+        <link href="stylos/styles.css" rel="stylesheet"> 
+    </head>
+    <body background="img/principal.png">
+        
+
+        <form name="Clientes" action="ServCrudActividades" method="POST">     
+            <div class="logoencabezadoformUsuarios">
+                <table border="0">
+                    <tbody>
+                        <tr>
+                            <td><img src="img/encabezado.png" width="1230" height="100" alt="logoencabezadoppalg"/><br>   
+                            </td>
+
+                        </tr>
+                    </tbody>
+                    		      
+                </table><br>
+                <div class="justificacionformUsuarios">
+                    <table border="1"width="840" heigth="1250">
+                        <tr>
+                            <td>        
+                                <table border="0">
+                                        <p class="lead">TERCEROS</p>
+                                       <tr>
+                                           <td width="20%"> Identificacion :   </td>
+                                           <td width="50%"><input type="text" size="53" name="identificacion" value="${requestScope['clientes'].identificacion}" >*</td>
+                                       </tr>
+                                       <tr>
+                                            <td width="20%"> Tipo identificación :   </td>
+                                            <td width="50%"><input type="text" size="53" name="tipoIdentificacion" value="${requestScope['clientes'].tipoIdentificacion}" >*</td>
+                                       </tr>
+                                       <tr>
+                                           <td width="20%"> Nombres  :   </td>
+                                           <td width="50%"><input type="text" size="53" name="nombres" value="${requestScope['clientes'].nombres}" >*</td>
+                                       </tr>
+                                                                              
+                                       <tr>
+                                          <td width="20%"> Apellidos :      </td>
+                                          <td width="50%"><input type="text" size="53" name="apellidos" value="${requestScope['clientes'].apellidos}">*</td>
+                                       </tr>
+                                       
+                                       <tr>
+                                         <td width="20%"> Dirección :      </td>
+                                         <td width="50%"><input type="text" size="53" name="direccion" value="${requestScope['clientes'].direccion}">*</td>
+                                       </tr> 
+                                       
+                                        <tr>
+                                          <td width="20%"> Telefono fijo :      </td>
+                                          <td width="50%"><input type="text" size="53" name="telefonoFijo" value="${requestScope['clientes'].telefonoFijo}">*</td>
+                                       </tr>
+                                            
+                                       <tr>
+                                          <td width="20%"> Celular :      </td>
+                                          <td width="50%"><input type="text" size="53" name="celular" value="${requestScope['clientes'].celular}">*</td>
+                                       </tr>
+                                       
+                                       
+                                       <tr><br>
+                                            <td width="20%">  Correo             </td>
+                                            <td width="50%"><input type="text" size="53" name="correo" value="${requestScope['clientes'].correo}" ></td>
+                                       </tr>
+
+                                       <tr><br>
+                                            <td width="20%">  Código ciudad             </td>
+                                            <td width="50%"><input type="text" size="53" name="codigoCiudad" value="${requestScope['clientes'].codigoCiudad}" ></td>
+                                       </tr>
+
+                                         <tr><br>
+                                            <td width="20%">  Tipo tercero             </td>
+                                            <td width="50%"><input type="text" size="53" name="tipoTercero" value="${requestScope['clientes'].tipoTercero}" ></td>
+                                       </tr>
+                                    
+
+                                  </tbody>
+                               </table><br>
+                    
+                          <div class="botones"> 
+                              <input type="hidden" name="op" id="inputOp" value="0">
+                              <input type="image" value="Guardar" src="img/guardar1.jpg"title="Guardar" width="40" height="40" alt="guardar1" onclick="javascript:document.getElementById('inputOp').value='1';" />
+                              <input type="image" src="img/consultar2.jpg"title="Consultar"  width="40" height="40" alt="consultar2" onclick="javascript:document.getElementById('inputOp').value='2';"/>
+                              <input type="image" src="img/modificar.jpg"title="Modificar" width="40" height="40" alt="modificar" onclick="javascript:document.getElementById('inputOp').value='3';" />
+                              <input type="image" src="img/eliminar3.jpg"title="Eliminar" width="40" height="40" alt="eliminar3" onclick="javascript:document.getElementById('inputOp').value='4';"/>
+                              <input type="image" src="img/limpiar.jpg"title="Limpiar" width="40" height="40" alt="limpiar" onclick="javascript:document.getElementById('inputOp').value='5';"/>
+                          </div>
+                            <br><br>
+                        </td>
+                        </tr>
+                   </table>    
+                                       <a align="left" type="image" src="img/home1.jpg" href="menuprincipal.jsp"width="40" height="40">Principal</a>
+                </div>
+
+             </div>
+         </form>
+                        
+                        <!--        </form> -->
+                        </body>
+                        </html>
+
+
